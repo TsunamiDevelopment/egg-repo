@@ -1,6 +1,6 @@
 import { downloadFile } from '../../../utils/DownloadFile';
 
-export default async function create(version) {
+module.exports = async function create(version) {
 	const data = await get(`https://api.papermc.io/v2/projects/paper/versions/${version}`)
 	if(!data.project_id) throw new Error("Invalid Version");
 	const build = data.builds[0];

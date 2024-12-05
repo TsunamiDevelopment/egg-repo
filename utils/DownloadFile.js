@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import axios from "axios";
 
-export async function downloadFile(fileUrl, outputLocationPath) {
+module.exports = function downloadFile(fileUrl, outputLocationPath) {
   const writer = fs.createWriteStream(outputLocationPath);
 
   return axios

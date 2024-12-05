@@ -1,4 +1,4 @@
-export default function data() {
+module.exports = function data() {
 	return {
 		"id": "mc_java",
 		"friendly_name": "Minecraft: Java Edition",
