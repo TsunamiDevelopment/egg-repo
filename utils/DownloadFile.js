@@ -1,7 +1,7 @@
-import * as fs from "fs";
-import axios from "axios";
+const fs = require('fs')
+const axios = require('axios')
 
-module.exports = function downloadFile(fileUrl, outputLocationPath) {
+function downloadFile(fileUrl, outputLocationPath) {
   const writer = fs.createWriteStream(outputLocationPath);
 
   return axios
@@ -30,3 +30,6 @@ module.exports = function downloadFile(fileUrl, outputLocationPath) {
       });
     });
 }
+
+
+module.exports = { downloadFile }
