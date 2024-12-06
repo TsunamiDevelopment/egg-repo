@@ -17,7 +17,7 @@ module.exports = async function create() {
 	})
 	const serverresp = await server.run();
 
-	const cfg = require(path.join(__dirname, serverresp, 'cfg.js'))();
+	const cfg = require(path.join(__dirname, serverresp, 'cfg.js'));
 	const subcat = new Select({
 		name: 'server',
 		message: 'Select the Server Software',
@@ -25,11 +25,11 @@ module.exports = async function create() {
 	})
 	const subcatresp = await subcat.run();
 
-	const serverCfg = require(path.join(__dirname, serverresp, subcatresp, 'cfg.js'))();
+	const serverCfg = require(path.join(__dirname, serverresp, subcatresp, 'cfg.js'));
 	const version = new Select({
 		name: 'server',
 		message: 'Select the Server Version',
-		choices: serverCfg.supported_versions
+		choices: mapVersions(serverCfg.versions)
 	})
 	const versionresp = await version.run();
 
@@ -37,4 +37,26 @@ module.exports = async function create() {
 	await installer(versionresp);
 
 	
+}
+
+function mapVersions(versions) {
+	// -1 Dangerous     RED
+	// 0  Unsupported   ORANGE
+	// 1  Stable        GREEN
+	// 2  Experimental  YELLOW
+	
+	// Example: { "1.8.8": "-1" }
+
+	const mapped = [];
+	for (const version in versions) {
+		const status = versions[version];
+		let statusText;
+		let color;
+		if(status === "-1") {color = require('chalk').redBright; statusText = "Dangerous"; }
+		if (status === "0") {color = require('chalk').hex('#FFA500'); statusText = "Unsupported"; }
+		if (status === "1") {color = require('chalk').greenBright; statusText = "Stable"; }
+		if (status === "2") {color = require('chalk').magentaBright; statusText = "Experimental"; }
+		mapped.push({ message: color(`${version} (${statusText})`), name: version, value: version });
+	}
+	return mapped;
 }

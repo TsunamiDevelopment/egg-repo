@@ -1,9 +1,7 @@
-module.exports = function data() {
-	return {
-		"id": "mc_java",
-		"friendly_name": "Minecraft: Java Edition",
-		"subcategories": [
-			"paper"
-		]
-	}
+module.exports = {
+	"id": "mc_java",
+	"friendly_name": "Minecraft: Java Edition",
+	"subcategories": [
+		"paper"
+	]
 }
