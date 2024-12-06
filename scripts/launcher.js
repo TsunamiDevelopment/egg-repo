@@ -1,62 +1,95 @@
-const fs = require('fs')
-const path = require('path')
-const { Select } = require('enquirer');
+const fs = require('fs');
+const path = require('path');
+const readline = require('readline');
+const Logger = require('../utils/Logger');
+const chalk = require('chalk');
 
 module.exports = async function create() {
-	const allDirs = fs.readdirSync(__dirname);
-	const dirs = allDirs.filter(dir => fs.statSync(path.join(__dirname, dir)).isDirectory());
+    const dirs = getDirectories(__dirname);
+    logInfo();
 
-	require('../utils/Logger').info("Don't see a game you like? Open")
-	require('../utils/Logger').info("an issue on the GitHub repo!")
-	require('../utils/Logger').info("https://github.com/TsunamiDevelopment/eggs-repo")
-	// Selct menu popup for selecting the server type
-	const server = new Select({
-		name: 'server',
-		message: 'Select the Server Genre',
-		choices: dirs
-	})
-	const serverresp = await server.run();
+    const server = await selectMenu('🎮   Select the Server Genre', dirs);
+    const serverCfgPath = path.join(__dirname, server, 'cfg.js');
+    const serverCfg = require(serverCfgPath);
 
-	const cfg = require(path.join(__dirname, serverresp, 'cfg.js'));
-	const subcat = new Select({
-		name: 'server',
-		message: 'Select the Server Software',
-		choices: cfg.subcategories
-	})
-	const subcatresp = await subcat.run();
+    const subcat = await selectMenu('🖥️   Select the Server Software', serverCfg.subcategories);
+    const subcatCfgPath = path.join(__dirname, server, subcat, 'cfg.js');
+    const subcatCfg = require(subcatCfgPath);
 
-	const serverCfg = require(path.join(__dirname, serverresp, subcatresp, 'cfg.js'));
-	const version = new Select({
-		name: 'server',
-		message: 'Select the Server Version',
-		choices: mapVersions(serverCfg.versions)
-	})
-	const versionresp = await version.run();
+    const versionChoices = mapVersions(subcatCfg.versions);
+    const version = await selectMenu('🔧   Select the Server Version', versionChoices);
 
-	const installer = require(path.join(__dirname, serverresp, subcatresp, 'installer.js'));
-	await installer(versionresp);
+    const installer = require(path.join(__dirname, server, subcat, 'installer.js'));
+    await installer(version);
+};
 
-	
+function getDirectories(dir) {
+    const allDirs = fs.readdirSync(dir);
+    return allDirs.filter(subDir => fs.statSync(path.join(dir, subDir)).isDirectory());
+}
+
+function logInfo() {
+    Logger.info(chalk.blueBright("Don't see a game you like? Open"));
+    Logger.info(chalk.blueBright("an issue on the GitHub repo!"));
+    Logger.info(chalk.blueBright("https://github.com/TsunamiDevelopment/eggs-repo"));
+}
+
+function selectMenu(message, choices) {
+    return new Promise((resolve, reject) => {
+        const rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout
+        });
+
+        console.log(chalk.cyanBright(`\n\n${message}:`));
+        choices.forEach((choice, index) => {
+            console.log(`${chalk.greenBright(index + 1)}) ${choice.message || choice}`);
+        });
+
+        rl.question(chalk.yellow('Your choice: '), (answer) => {
+            const selectedIndex = parseInt(answer, 10) - 1;
+
+            if (selectedIndex >= 0 && selectedIndex < choices.length) {
+                const selectedChoice = choices[selectedIndex].value || choices[selectedIndex];
+                rl.close();
+                resolve(selectedChoice);
+            } else {
+                console.log(chalk.red('Invalid choice. Please try again.'));
+                rl.close();
+                resolve(selectMenu(message, choices));
+            }
+        });
+    });
 }
 
 function mapVersions(versions) {
-	// -1 Dangerous     RED
-	// 0  Unsupported   ORANGE
-	// 1  Stable        GREEN
-	// 2  Experimental  YELLOW
-	
-	// Example: { "1.8.8": "-1" }
-
-	const mapped = [];
-	for (const version in versions) {
-		const status = versions[version];
-		let statusText;
-		let color;
-		if(status === "-1") {color = require('chalk').redBright; statusText = "Dangerous"; }
-		if (status === "0") {color = require('chalk').hex('#FFA500'); statusText = "Unsupported"; }
-		if (status === "1") {color = require('chalk').greenBright; statusText = "Stable"; }
-		if (status === "2") {color = require('chalk').magentaBright; statusText = "Experimental"; }
-		mapped.push({ message: color(`${version} (${statusText})`), name: version, value: version });
-	}
-	return mapped;
+    const mapped = [];
+    for (const version in versions) {
+        const status = versions[version];
+        let statusText, color;
+        switch (status) {
+            case "-1":
+                color = chalk.redBright;
+                statusText = "Dangerous";
+                break;
+            case "0":
+                color = chalk.hex('#FFA500');
+                statusText = "Unsupported";
+                break;
+            case "1":
+                color = chalk.greenBright;
+                statusText = "Stable";
+                break;
+            case "2":
+                color = chalk.magentaBright;
+                statusText = "Experimental";
+                break;
+        }
+        mapped.push({
+            message: color(`${version} (${statusText})`),
+            value: version,
+			level: status
+        });
+    }
+    return mapped;
 }
