@@ -32,7 +32,6 @@ module.exports = async function create(version) {
 	launchApp(cmd);
 }
 
-
 const axios = require('axios');
 async function get(path) {
 	return (await axios.get(path)).data;
