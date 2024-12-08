@@ -1,5 +1,6 @@
-const { downloadFile } = require('/repo/utils/DownloadFile.js')
-const { hash256 } = require('/repo/utils/Misc.js')
+const { downloadFile } = require('../../../utils/DownloadFile')
+const { hash256 } = require('../../../utils/Misc')
+const Logger = require('../../../utils/Logger')
 
 module.exports = async function create(version) {
 	console.log(version)
@@ -14,14 +15,14 @@ module.exports = async function create(version) {
 	if(!sdkVersion) throw new Error("Invalid Version");
 	const cmd = require('./cfg').runner.cmd.replace("{{VERSION}}", version);
 
-	require('/repo/utils/Logger').info(`Downloading Server v${version}b${build}`)
+	Logger.info(`Downloading Server v${version}b${build}`)
 	if(!require('fs').existsSync(`/home/container/server-${version}.jar`)) {
 		await downloadFile(serverUrl, `/home/container/server-${version}.jar`)
 	} else {
 		// get sha256 of existing jar
 		const existingHash = await hash256(`/home/container/server-${version}.jar`);
 		if(existingHash !== sha256) {
-			require('/repo/utils/Logger').info("Server jar already exists, but is outdated. Updating...")
+			Logger.info("Server jar already exists, but is outdated. Updating...")
 			await downloadFile(serverUrl, `/home/container/server-${version}.jar`)
 		}
 	}
