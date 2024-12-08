@@ -1,7 +1,5 @@
 const { downloadFile } = require('/repo/utils/DownloadFile.js')
-const { installSdkVersion } = require('/repo/utils/sdks/java.js')
-const { exec } = require('child_process');
-const { launchApp, hash256 } = require('/repo/utils/Misc.js')
+const { hash256 } = require('/repo/utils/Misc.js')
 
 module.exports = async function create(version) {
 	console.log(version)
@@ -16,8 +14,6 @@ module.exports = async function create(version) {
 	if(!sdkVersion) throw new Error("Invalid Version");
 	const cmd = require('./cfg').runner.cmd.replace("{{VERSION}}", version);
 
-	await installSdkVersion(sdkVersion).catch(e => { throw new Error(e) });
-	await exec("mkdir -p /home/container/")
 	require('/repo/utils/Logger').info(`Downloading Server v${version}b${build}`)
 	if(!require('fs').existsSync(`/home/container/server-${version}.jar`)) {
 		await downloadFile(serverUrl, `/home/container/server-${version}.jar`)
@@ -29,7 +25,17 @@ module.exports = async function create(version) {
 			await downloadFile(serverUrl, `/home/container/server-${version}.jar`)
 		}
 	}
-	launchApp(cmd);
+	return {
+		sdk: {
+			type: "java",
+			version: sdkVersion
+		},
+		program: {
+			eulaMsg: "Do you agree to the Minecraft EULA?",
+			eulaFile: "/home/container/eula.txt"
+		},
+		launch: cmd
+	}
 }
 
 const axios = require('axios');
