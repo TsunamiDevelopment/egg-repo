@@ -9,7 +9,8 @@ export default interface VersionResponse {
 	},
 	program: {
 		eulaMsg: string | undefined,
-		eulaFile: string | undefined
+		eulaFile: string | undefined,
+		agreeData: string | undefined,
 	},
 	launch: string
 }
