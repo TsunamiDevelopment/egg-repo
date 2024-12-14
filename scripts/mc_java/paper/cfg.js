@@ -27,6 +27,7 @@ module.exports = {
 			if(["1.17.1", "1.18.2", "1.19.4"].includes(id)) return "17.0.13-tem";
 			if(["1.20.4", "1.21.1", "1.21.2", "1.21.3", "1.21.4"].includes(id)) return "21.0.5-tem";
 		},
-		"cmd": `/home/container/.sdkman/candidates/java/current/bin/java -jar /home/container/server-{{VERSION}}.jar`
+		// %%__VAR__%% are launcher-replaced flags, {{VAR}} are installer-replaced flags
+		"cmd": `/home/container/.sdkman/candidates/java/current/bin/java %%__BEFOREFLAGS__%% -jar /home/container/server-{{VERSION}}.jar`
 	}
 }
