@@ -13,7 +13,7 @@ module.exports = async function create(version) {
 
 	const sdkVersion = require('./cfg').runner.version(version);
 	if(!sdkVersion) throw new Error("Invalid Version");
-	const cmd = require('./cfg').runner.cmd.replace("{{VERSION}}", version);
+	const cmd = require('./cfg').runner.cmd.replace("{{VERSION}}", version).replace("{{JDK_VERSION}}", sdkVersion);
 
 	Logger.info(`Downloading Server v${version}b${build}`)
 	if(!require('fs').existsSync(`/home/container/server-${version}.jar`)) {
