@@ -1,6 +1,8 @@
 const { downloadFile } = require('../../../utils/DownloadFile')
 const { hash256 } = require('../../../utils/Misc')
 const Logger = require('../../../utils/Logger')
+const fs = require('fs');
+const axios = require('axios');
 
 module.exports = async function create(version) {
 	console.log(version)
@@ -16,8 +18,13 @@ module.exports = async function create(version) {
 	const cmd = require('./cfg').runner.cmd.replace("{{VERSION}}", version).replace("{{JDK_VERSION}}", sdkVersion);
 
 	Logger.info(`Downloading Server v${version}b${build}`)
-	if(!require('fs').existsSync(`/home/container/server-${version}.jar`)) {
-		await downloadFile(serverUrl, `/home/container/server-${version}.jar`)
+	const filePath = `/home/container/server-${version}.jar`;
+	if(!fs.existsSync(filePath)) {
+		await downloadFile(serverUrl, filePath).then(() => {
+			const fileSizeInBytes = fs.statSync(filePath).size;
+			const fileSizeInMB = (fileSizeInBytes / (1024 * 1024)).toFixed(2);
+			Logger.info(`Server jar downloaded successfully (Size: ${fileSizeInMB} MB)`);
+		});
 	} else {
 		// get sha256 of existing jar
 		const existingHash = await hash256(`/home/container/server-${version}.jar`);
@@ -40,7 +47,6 @@ module.exports = async function create(version) {
 	}
 }
 
-const axios = require('axios');
 async function get(path) {
 	return (await axios.get(path)).data;
 }
