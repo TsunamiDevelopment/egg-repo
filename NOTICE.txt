@@ -3,10 +3,6 @@ NOTICE
 This repository contains the configuration files and codebase for the Pterodactyl Egg provided by Tsunami Development. 
 Please read this notice carefully to understand the guidelines and limitations regarding the use and modification of this repository.
 
-- Obfuscated Repository
-To ensure the protection and proper functioning of the Pterodactyl Egg, certain parts of this repository are obfuscated. 
-This measure is in place to safeguard the end user from accidental misconfigurations and maintain the integrity of the environment.
-
 - Source Code Availability
 The source code for this repository is publicly available and can be accessed on our GitHub at the following link:
 https://github.com/TsunamiDevelopment/egg-repo
@@ -24,5 +20,4 @@ We strongly advise against attempting to modify this repository locally.
 If you require changes or have specific needs, please reach out to the Tsunami Development team for support or contribute to the public source on GitHub.
 By using this repository, you agree to abide by these terms and acknowledge the consequences of violating these policies.
 
-Thank you for choosing Tsunami Development's Pterodactyl Egg!
-
+Thank you for choosing MultiEgg!
