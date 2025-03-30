@@ -39,9 +39,6 @@ module.exports = async function create(version) {
 			version: sdkVersion
 		},
 		program: {
-			eulaMsg: "Do you agree to the Minecraft EULA?",
-			eulaFile: "/home/container/eula.txt",
-			agreeData: "eula=true"
 		},
 		launch: cmd
 	}
