@@ -30,12 +30,23 @@ module.exports = async function create(version) {
 	
 	// move everything from the extracted folder to the current directory
 	const extractedDir = "/home/container/teamspeak3-server_linux_amd64/";
-	const files = fs.readdirSync(extractedDir);
-	files.forEach((file) => {
-		const oldPath = `${extractedDir}${file}`;
-		const newPath = `/home/container/${file}`;
-		fs.renameSync(oldPath, newPath);
-	});
+	const moveFilesRecursively = (sourceDir, targetDir) => {
+		const items = fs.readdirSync(sourceDir, { withFileTypes: true });
+		items.forEach((item) => {
+			const sourcePath = `${sourceDir}/${item.name}`;
+			const targetPath = `${targetDir}/${item.name}`;
+			if (item.isDirectory()) {
+				if (!fs.existsSync(targetPath)) {
+					fs.mkdirSync(targetPath);
+				}
+				moveFilesRecursively(sourcePath, targetPath);
+			} else {
+				fs.renameSync(sourcePath, targetPath);
+			}
+		});
+	};
+
+	moveFilesRecursively(extractedDir, "/home/container");
 	fs.rmSync(extractedDir, { recursive: true, force: true }); // Remove the directory and its contents
 
 	const cmd = require("./cfg").runner.cmd
