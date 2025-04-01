@@ -1,9 +1,9 @@
-const { versionsMinecraft } = require("../../../utils/McJarsApp");
+const { versionsMinecraft, versionJava } = require("../../../utils/McJarsApp");
 
 module.exports = {
-	"id": "mc_java_vanilla",
-	"friendly_name": "Vanilla",
-	"versions": await versionsMinecraft("vanilla"),
+	"id": "mc_java_forge",
+	"friendly_name": "Forge (Modded)",
+	"versions": await versionsMinecraft("forge"),
 	"runner": {
 		"system": "java",
 		"version": function(id) { return versionJava(id); },

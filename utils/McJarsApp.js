@@ -77,4 +77,32 @@ async function creationDate(software, version) {
     return resp.build.created
 }
 
-module.exports = { jarDownloadLink, jarSize, jarVersionInfo, versionJava, creationDate, allVersions, parseVersion };
+async function versionsMinecraft(software) {
+    try {
+        const versions = await allVersions(software);
+        const mappedVersions = await Promise.all(versions.map(async v => ({ v, d: await parseVersion(software, v) })));
+
+        const toReturn = {};
+        for (const version of mappedVersions) {
+            let number = 0;
+            if (version.d.supported) number = 1;
+            if (version.d.experimental) number = 2;
+            toReturn[version.v] = number;
+        }
+
+        return toReturn;
+    } catch (error) {
+        return {};
+    }
+}
+
+function versionJava(java) {
+    if (java === "21") return "21.0.5-tem";
+    if (java === "17") return "17.0.13-tem";
+    if (java === "16") return "16.0.2-tem";
+    if (java === "11") return "11.0.25-tem";
+    if (java === "8") return "8.0.382-tem";
+    return "21.0.5-tem"; // Default to 21.0.5-tem if version is not found
+}
+
+module.exports = { jarDownloadLink, jarSize, jarVersionInfo, versionJava, creationDate, allVersions, parseVersion, versionsMinecraft, versionJava };

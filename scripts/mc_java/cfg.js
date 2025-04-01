@@ -3,6 +3,8 @@ module.exports = {
 	"friendly_name": "Minecraft: Java Edition",
 	"subcategories": [
 		"vanilla",
-		"paper"
+		"paper",
+		"pufferfish",
+		"purpur"
 	]
 }

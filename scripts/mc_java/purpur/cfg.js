@@ -1,19 +1,9 @@
+const { versionsMinecraft } = require("../../../utils/McJarsApp");
+
 module.exports = {
 	"id": "mc_java_purpur",
 	"friendly_name": "Purpur",
-	"versions": {
-		"1.14.4": "1",
-		"1.15.2": "1",
-		"1.16.5": "1",
-		"1.17.1": "1",
-		"1.18.2": "1",
-		"1.19.4": "1",
-		"1.20.4": "1",
-		"1.20.6": "1",
-		"1.21.1": "1",
-		"1.21.3": "1",
-		"1.21.4": "1",
-	},
+	"versions": await versionsMinecraft("purpur"),
 	"runner": {
 		"system": "java",
 		"version": function(id) {
