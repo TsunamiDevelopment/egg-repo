@@ -1,4 +1,4 @@
-const { versionsMinecraft } = require("../../../utils/McJarsApp");
+const { versionsMinecraft, versionJava } = require("../../../utils/McJarsApp");
 
 module.exports = {
 	"id": "mc_java_neoforge",
