@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { downloadFile } = require("../../../utils/DownloadFile");
 const Logger = require("../../../utils/Logger");
-const bzip2 = require("unbzip2-stream/lib/bzip2");
+const bz2 = require('unbzip2-stream');
 const tarfs = require("tar-fs");
 
 module.exports = async function create(version) {
@@ -15,7 +15,7 @@ module.exports = async function create(version) {
 
 	// Extract the downloaded file
 	fs.createReadStream("/home/container/teamspeak.tar.bz2")
-		.pipe(bzip2())
+		.pipe(bz2())
 		.pipe(tarfs.extract("/home/container/teamspeak3-server_linux_x86"))
 		.on("finish", () => {
 			Logger.info("File extracted successfully.");
