@@ -3,7 +3,6 @@ module.exports = {
 	"friendly_name": "Minecraft: Bedrock Edition",
 	"subcategories": [
 		"pocketmine",
-		"vanilla",
-		"nukkit"
+		"vanilla"
 	]
 }
