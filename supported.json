@@ -1,0 +1,33 @@
+{
+    "categories": [
+        "mc_bedrock",
+        "mc_java",
+        "mc_java_mod",
+        "mc_proxy",
+        "voice_server"
+    ],
+    "mc_bedrock": [
+        "mc_bedrock_pocketmine",
+        "mc_bedrock_vanilla"
+    ],
+    "mc_java": [
+        "mc_java_paper",
+        "mc_java_pufferfish",
+        "mc_java_purpur",
+        "mc_java_vanilla"
+    ],
+    "mc_java_mod": [
+        "mc_java_fabric",
+        "mc_java_forge",
+        "mc_java_neoforge"
+    ],
+    "mc_proxy": [
+        "mc_proxy_bungeecord",
+        "mc_proxy_velocity",
+        "mc_proxy_waterfall"
+    ],
+    "voice_server": [
+        "voice_server_teamspeak",
+        "voice_server_lavalink"
+    ]
+}
