@@ -4,7 +4,7 @@ module.exports = {
 	"id": "mc_java_paper",
 	"friendly_name": "PaperMC",
 	"versions": async() => {
-		const allVersion = await allVersions();
+		const allVersion = await allVersions("paper");
 		const versions = allVersion.filter(v => v.type === "RELEASE");
 		const mappedVersions = versions.map(async v => await parseVersion("paper", v))
 
