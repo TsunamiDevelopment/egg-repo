@@ -1,5 +1,7 @@
 const axios = require("axios");
 
+let allVersionsCache = {};
+
 async function get(software, version) {
     const resp = await axios.get(`https://versions.mcjars.app/api/v1/builds/${software}/${version}/latest`)
     if(!resp.data) throw new Error("Invalid Version")
@@ -7,8 +9,8 @@ async function get(software, version) {
 }
 
 async function allVersions(software) {
-    const resp = await axios.get(`https://versions.mcjars.app/api/v1/builds/${software}`);
-    // returns { "success": true, "versions": { "1.8.8": {}, etc, etc }}
+    const resp = allVersionsCache[software] || await axios.get(`https://versions.mcjars.app/api/v1/builds/${software}`);
+    allVersionsCache[software] = resp; // Cache the response for future use
     if (!resp.data) throw new Error("Invalid Version");
     const versions = resp.data.versions;
     const versionList = [];
@@ -23,18 +25,30 @@ async function allVersions(software) {
 }
 
 async function parseVersion(software, version) {
-    const resp1 = await get(software, version)
-    const resp2 = await axios.get('https://versions.mcjars.app/api/v1/version/' + version);
+    const resp = (await axios.get(`https://raw.githubusercontent.com/TsunamiDevelopment/egg-repo/refs/heads/main/versions.json`)).data;
+    if (!resp) throw new Error("Invalid Version");
 
-    const isExperimental = resp1.build.experimental || false;
-    const isSupported = resp2.data.version.supported || false;
+    const versions = resp.versions;
+    let versionDoc = versions[version]
+    if (!versionDoc) {
+        const d = allVersionsCache[software] || await allVersions(software);
+        allVersionsCache[software] = d; // Cache the response for future use
+        const versions = d.data.versions;
+        for (const [versionKey, version] of Object.entries(versions)) {
+            if (versionKey === version) {
+                versionDoc = {
+                    type: version.type,
+                    java: version.java,
+                    supported: version.supported,
+                    experimental: version.latest.experimental,
+                };
+                break;
+            }
+        }
+        if (!versionDoc) throw new Error("Invalid Version")
+    }
 
-    return { 
-        versionId: resp1.build.versionId,
-        buildNumber: resp1.build.buildNumber,
-        experimental: isExperimental,
-        supported: isSupported
-    };
+    return versionDoc;
 }
 
 async function jarDownloadLink(software, version) {
