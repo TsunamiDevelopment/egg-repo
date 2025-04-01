@@ -8,6 +8,6 @@ module.exports = {
 		"system": "system",
 		"version": null,
 		// %%__VAR__%% are launcher-replaced flags, {{VAR}} are installer-replaced flags
-		"cmd": `/home/container/ts3server`
+		"cmd": `/home/container/ts3server license_accepted=1`
 	}
 }
