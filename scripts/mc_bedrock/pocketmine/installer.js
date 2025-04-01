@@ -2,6 +2,8 @@ module.exports = async function create(version) {
     const { spawn } = require("child_process");
 	spawn("bash", ["-c", "curl -sL https://get.pmmp.io | bash -s -"], { stdio: "inherit" });
 
+	const cmd = require('./cfg').runner.cmd
+
 	return {
 		sdk: {
 			type: "system",
