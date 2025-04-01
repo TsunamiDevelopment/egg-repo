@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { downloadFile } = require("../../../utils/DownloadFile");
+const Logger = require("../../../utils/Logger");
 
 module.exports = async function create(version) {
 	const serverUrl = `https://github.com/lavalink-devs/Lavalink/releases/download/4.0.8/Lavalink.jar`;
