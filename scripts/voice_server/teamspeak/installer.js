@@ -49,6 +49,14 @@ module.exports = async function create(version) {
 	moveFilesRecursively(extractedDir, "/home/container");
 	fs.rmSync(extractedDir, { recursive: true, force: true }); // Remove the directory and its contents
 
+	const ini = [
+		`machine_id=`,
+		`default_voice_port=${process.env.SERVER_PORT}`,
+		`licensepath=`
+	].join("\n");
+	fs.writeFileSync("/home/container/ts3server.ini", ini, { encoding: "utf8" });
+
+
 	const cmd = require("./cfg").runner.cmd
 
 
