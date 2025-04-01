@@ -1,9 +1,9 @@
-const { versionsMinecraft } = require("../../../utils/McJarsApp");
+const { versionsMinecraft, versionJava } = require("../../../utils/McJarsApp");
 
 module.exports = {
 	"id": "mc_java_pufferfish",
 	"friendly_name": "Pufferfish",
-	"versions": await versionsMinecraft("pufferfish"),
+	"versions": async function () { return await versionsMinecraft("pufferfish"); },
 	"runner": {
 		"system": "java",
 		"version": function(id) { return versionJava(id); },

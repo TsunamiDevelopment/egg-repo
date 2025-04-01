@@ -3,7 +3,7 @@ const { versionsMinecraft } = require("../../../utils/McJarsApp");
 module.exports = {
 	"id": "mc_java_vanilla",
 	"friendly_name": "Vanilla",
-	"versions": await versionsMinecraft("vanilla"),
+	"versions": async function () { return await versionsMinecraft("vanilla"); },
 	"runner": {
 		"system": "java",
 		"version": function(id) { return versionJava(id); },

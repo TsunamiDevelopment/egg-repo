@@ -3,7 +3,7 @@ const { versionsMinecraft } = require("../../../utils/McJarsApp");
 module.exports = {
 	"id": "mc_java_neoforge",
 	"friendly_name": "NeoForge (Modded)",
-	"versions": await versionsMinecraft("neoforge"),
+	"versions": async function () { return await versionsMinecraft("neoforge"); },
 	"runner": {
 		"system": "java",
 		"version": function(id) { return versionJava(id); },
