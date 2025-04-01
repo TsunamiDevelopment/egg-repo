@@ -27,7 +27,7 @@ async function parseVersion(software, version) {
     const resp2 = await axios.get('https://versions.mcjars.app/api/v1/version/' + version);
 
     const isExperimental = resp1.build.experimental || false;
-    const isSupported = resp2.version.supported || false;
+    const isSupported = resp2.data.version.supported || false;
 
     return { 
         versionId: resp1.build.versionId,
