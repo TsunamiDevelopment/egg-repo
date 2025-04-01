@@ -29,7 +29,7 @@ module.exports = async function create(version) {
 	});
 	
 	// move everything from the extracted folder to the current directory
-	const extractedDir = "/home/container/teamspeak3-server_linux_x86/";
+	const extractedDir = "/home/container/teamspeak3-server_linux_amd64/";
 	const files = fs.readdirSync(extractedDir);
 	files.forEach((file) => {
 		const oldPath = `${extractedDir}${file}`;
