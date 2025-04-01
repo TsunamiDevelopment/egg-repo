@@ -9,14 +9,13 @@ module.exports = {
 			const mappedVersions = await Promise.all(versions.map(async v => await parseVersion("paper", v)));
 
 			const toReturn = {};
-			console.log("Versions:", versions);
-			console.log("Mapped Versions:", mappedVersions);
 			for (const version of mappedVersions) {
 				let number = 0;
 				if (version.supported) number = 1;
 				if (version.experimental) number = 2;
 				toReturn[version.versionId] = number;
 			}
+			console.log("Versions fetched successfully:", toReturn);
 
 			return toReturn;
 		} catch (error) {
