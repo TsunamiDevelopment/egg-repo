@@ -15,11 +15,9 @@ module.exports = {
 				if (version.d.experimental) number = 2;
 				toReturn[version.v] = number;
 			}
-			console.log("Versions fetched successfully:", toReturn);
 
 			return toReturn;
 		} catch (error) {
-			console.error("Error fetching versions:", error);
 			return {};
 		}
 	},
@@ -35,7 +33,6 @@ module.exports = {
 				if (java === "8") return "8.0.382-tem";
 				return "21.0.5-tem"; // Default to 21.0.5-tem if version is not found
 			} catch (error) {
-				console.error("Error fetching Java version:", error);
 				return "21.0.5-tem"; // Default to 21.0.5-tem in case of error
 			}
 		},
