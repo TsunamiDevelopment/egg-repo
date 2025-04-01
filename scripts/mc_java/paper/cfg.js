@@ -7,7 +7,7 @@ module.exports = {
 		try {
 			const allVersion = await allVersions("paper");
 			const versions = allVersion.filter(v => v.type === "RELEASE");
-			const mappedVersions = await Promise.all(versions.map(v => parseVersion("paper", v)));
+			const mappedVersions = await Promise.all(versions.map(async v => await parseVersion("paper", v)));
 
 			const toReturn = {};
 			console.log("Versions:", mappedVersions);
