@@ -1,9 +1,9 @@
 import { versionJava, versionsMinecraft } from "../../../utils/McJarsApp";
 
-const config = {
+module.exports = {
 	"id": "mc_java_paper",
 	"friendly_name": "PaperMC",
-	"versions": await (async () => await versionsMinecraft("paper"))(),
+	"versions": async function () { return await versionsMinecraft("paper"); },
 	"runner": {
 		"system": "java",
 		"version": function(id) { return versionJava(id); },
@@ -11,5 +11,3 @@ const config = {
 		"cmd": `/home/container/.sdkman/candidates/java/{{JDK_VERSION}}/bin/java %%__BEFOREFLAGS__%% -jar /home/container/server-{{VERSION}}.jar`
 	}
 };
-
-module.exports = config;
