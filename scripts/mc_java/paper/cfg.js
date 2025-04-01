@@ -1,4 +1,4 @@
-import { parseJavaVersion, versionsMinecraft } from "../../../utils/McJarsApp";
+const { parseJavaVersion, versionsMinecraft } = require("../../../utils/McJarsApp");
 
 module.exports = {
 	"id": "mc_java_paper",
