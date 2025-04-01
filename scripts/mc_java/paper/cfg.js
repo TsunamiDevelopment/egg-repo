@@ -11,13 +11,9 @@ module.exports = {
 			const toReturn = {};
 			for (const version of mappedVersions) {
 				let number = 0;
-				if (version && version.supported) number = 1;
-				if (version && version.experimental) number = 2;
-				if (version && version.versionId) {
-					toReturn[version.versionId] = number;
-				} else {
-					console.warn("Undefined versionId encountered:", version);
-				}
+				if (version?.supported) number = 1;
+				if (version?.experimental) number = 2;
+				toReturn[version.id] = number;
 			}
 			console.log("Versions fetched successfully:", toReturn);
 
