@@ -14,15 +14,19 @@ module.exports = async function create(version) {
 	});
 
 	// Extract the downloaded file
-	fs.createReadStream("/home/container/teamspeak.tar.bz2")
-		.pipe(bz2())
-		.pipe(tarfs.extract("/home/container/teamspeak3-server_linux_x86"))
-		.on("finish", () => {
+	const tarStream = fs.createReadStream("/home/container/teamspeak.tar.bz2").pipe(bz2());
+	tarStream.pipe(tarfs.extract("/home/container/teamspeak3-server_linux_x86"));
+
+	await new Promise((resolve, reject) => {
+		tarStream.on("end", () => {
 			Logger.info("File extracted successfully.");
-		})
-		.on("error", (err) => {
-			Logger.error("Error extracting file:", err);
+			resolve();
 		});
+		tarStream.on("error", (err) => {
+			Logger.error("Error extracting file:", err);
+			reject(err);
+		});
+	});
 	
 	// move everything from the extracted folder to the current directory
 	const extractedDir = "/home/container/teamspeak3-server_linux_x86/";
