@@ -4,8 +4,8 @@ const fs = require('fs');
 const { jarDownloadLink, jarVersionInfo } = require('../../../utils/McJarsApp');
 
 module.exports = async function create(version) {
-	const serverUrl = await jarDownloadLink("paper", version);
-	const sdkVersion = await require('./cfg').runner.version(version);
+	const serverUrl = await jarDownloadLink("purpur", version);
+	const sdkVersion = require('./cfg').runner.version(version);
 
 	if (!sdkVersion) {
 		throw new Error("Invalid Version");
@@ -15,7 +15,7 @@ module.exports = async function create(version) {
 		.replace("{{VERSION}}", version)
 		.replace("{{JDK_VERSION}}", sdkVersion);
 
-	Logger.info(`Downloading Server ${await jarVersionInfo("paper", version)}`);
+	Logger.info(`Downloading Server ${await jarVersionInfo("purpur", version)}`);
 	const filePath = `/home/container/server-${version}.jar`;
 
 	if (!fs.existsSync(filePath)) {
