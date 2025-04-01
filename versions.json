@@ -1,0 +1,4450 @@
+{
+  "versions": {
+    "1.2.5": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.3.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.3.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.4.1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.4.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.4.3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.4.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.4.6": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.4.5": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.4.7": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.5.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "13w16a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w16b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.5.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "13w17a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w18a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w18b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w18c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w19a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w21a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w21b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w22a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w23a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w23b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w24a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w24b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w25a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w25b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w25c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w26a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.6.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.6.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "13w36a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w36b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w37a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.6.3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w37b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.6.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "13w38a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w38b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w38c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w39a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w39b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w41a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w41b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w42a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w42b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w43a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "13w47a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w47b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w47c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w47d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w47e": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w48a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w48b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "13w49a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.3": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.7.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "14w02a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w02b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w02c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w03a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w03b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w04a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w04b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w05a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w05b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w06b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.5": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "14w08a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w10a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w10b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w10c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.6-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.6-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w11a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.6": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.7.7": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.7.8": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.7.9": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "14w11b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w17a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w18a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w18b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w19a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.10-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.10-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.10-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.10-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.7.10": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "14w20a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w20b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w21a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w21b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w25a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w25b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w26a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w26b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w26c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w27a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w27b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w28a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w28b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w29a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w29b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w30a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w30b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w30c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w31a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w32a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w32b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w32c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w32d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w33a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w33b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w33c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w34a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w34b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w34c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "14w34d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.1-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.1-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.1-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.1-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.3": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "15w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.5": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.6": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.7": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.8.8": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "15w31a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w31b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w31c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w32a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w32b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w32c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w33a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w33b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w33c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w34a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w34b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w34c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w34d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w35a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w35b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w35c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w35d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w35e": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w36a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w36b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w36c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w36d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w37a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w38a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w38b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w39a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w39b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w39c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w40a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w40b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w41a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w41b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w42a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w43a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w43b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w43c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w44a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w44b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w45a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w46a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w47a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w47b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w47c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w49a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.8.9": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "15w49b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w50a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w51a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "15w51b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w02a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w03a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w04a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w05a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w05b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w07b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.9.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.1-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.1-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.9.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.RV-Pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w15a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w15b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.3-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.3-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.3-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.9.3": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.9.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "16w20a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w21a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w21b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.10-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.10-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.10": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.10.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.10.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "16w32a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w32b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w33a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w35a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w36a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w38a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w39a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w39b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w39c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w40a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w41a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w42a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w43a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "16w44a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.11-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.11": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "16w50a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.11.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.11.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "17w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w13a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w13b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w15a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w16a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w16b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w17a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w17b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w18a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w18b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "17w31a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.12.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.12.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "17w43a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w43b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w45a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w45b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w46a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w47a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w47b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w48a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w49a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w49b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "17w50a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w01a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w02a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w03a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w03b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w05a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w07b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w07c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w08a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w08b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w09a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w10a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w10b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w10c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w10d": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w11a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w14b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w15a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w16a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w19a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w19b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w20a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w20b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w20c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w21a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w21b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w22a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w22b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w22c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre8": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre9": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13-pre10": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "18w30a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w30b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w31a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w32a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w33a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13.1-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.13.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.13.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "18w43a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w43b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w43c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w44a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w45a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w46a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w47a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w47b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w48a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w48b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w49a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "18w50a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w02a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w03a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w03b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w03c": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w04a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w04b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w05a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w08a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w08b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w09a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w11a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w11b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w12a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w12b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w13a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w13b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "3D Shareware v1.34": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w14b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14 Pre-Release 1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14 Pre-Release 2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14 Pre-Release 3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14 Pre-Release 4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14 Pre-Release 5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.14.1 Pre-Release 1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.1 Pre-Release 2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.14.2 Pre-Release 1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.2 Pre-Release 2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.2 Pre-Release 3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.2 Pre-Release 4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.14.3-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.3-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.3-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.3-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.3": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.14.4-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.14.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "19w34a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w35a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w36a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w37a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w38a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w38b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w39a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w40a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w41a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w42a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w44a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w45a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w45b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w46a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "19w46b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.15.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.15.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.15.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "20w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w08a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w09a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w10a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w11a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w12a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w13a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w13b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w14infinite": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w15a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w16a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w17a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w18a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w19a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w20a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w20b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w21a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w22a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre4": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre5": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre6": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre7": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-pre8": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16-rc1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.16.1": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "20w27a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w28a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w29a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "20w30a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2-pre3": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2-rc1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2-rc2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.2": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.16.3-rc1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.3": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": false,
+      "experimental": false
+    },
+    "1.16.4-pre1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.4-pre2": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": false,
+      "experimental": true
+    },
+    "1.16.4-rc1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "1.16.4": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": true,
+      "experimental": false
+    },
+    "20w45a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "20w46a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "20w48a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "20w49a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "20w51a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "1.16.5-rc1": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "1.16.5": {
+      "type": "RELEASE",
+      "java": 8,
+      "supported": true,
+      "experimental": false
+    },
+    "21w03a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w05a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w05b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w06a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w07a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w08a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w08b": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w10a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w11a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w13a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w14a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w15a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w16a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w17a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w18a": {
+      "type": "SNAPSHOT",
+      "java": 8,
+      "supported": true,
+      "experimental": true
+    },
+    "21w19a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w20a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-pre1": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-pre2": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-pre3": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-pre4": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-pre5": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-rc1": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17-rc2": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17": {
+      "type": "RELEASE",
+      "java": 16,
+      "supported": true,
+      "experimental": false
+    },
+    "1.17.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17.1-pre2": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17.1-pre3": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17.1-rc1": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17.1-rc2": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.17.1": {
+      "type": "RELEASE",
+      "java": 16,
+      "supported": true,
+      "experimental": false
+    },
+    "21w37a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w38a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w39a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w40a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w41a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w42a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w43a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "21w44a": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre1": {
+      "type": "SNAPSHOT",
+      "java": 16,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre5": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre6": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre7": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-pre8": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-rc3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18-rc4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "1.18.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.1-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.1-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.1-rc3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.1": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "22w03a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w05a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w06a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w07a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.2-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.2-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.18.2": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "22w11a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w12a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w13a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w13oneblockatatime": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w14a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w15a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w16a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w16b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w17a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w18a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w19a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-pre5": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "22w24a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre5": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-pre6": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1-rc3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.1": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "1.19.2-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.2-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.2": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "22w42a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w43a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w44a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w45a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "22w46a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3-rc3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.3": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "23w03a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w04a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w05a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w06a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w07a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4-rc3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.19.4": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "23w12a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w13a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w13a_or_b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w14a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w16a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w17a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w18a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre5": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre6": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-pre7": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "1.20.1-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.1": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "23w31a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w32a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w33a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w35a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2-rc2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.2": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "23w40a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w41a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w42a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w43a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w43b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w44a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w45a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w46a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3-pre1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3-pre2": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3-pre3": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3-pre4": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.3": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "1.20.4-rc1": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.4": {
+      "type": "RELEASE",
+      "java": 17,
+      "supported": true,
+      "experimental": false
+    },
+    "23w51a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "23w51b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w03a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w03b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w04a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w05a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w05b": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w06a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w07a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w09a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w10a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w11a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w12a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w13a": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w14potato": {
+      "type": "SNAPSHOT",
+      "java": 17,
+      "supported": true,
+      "experimental": true
+    },
+    "24w14a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-pre4": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-rc2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5-rc3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.5": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "1.20.6-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.20.6": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "24w18a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w19a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w19b": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w20a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w21a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w21b": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21-pre4": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "1.21.1-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.1": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "24w33a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w34a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w35a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w36a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w37a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w38a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w39a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w40a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-pre4": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-pre5": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2-rc2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.2": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "1.21.3": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "24w44a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w45a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "24w46a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-rc2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4-rc3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.4": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "25w02a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w03a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w04a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w05a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w06a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w07a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w08a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w09a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w09b": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w10a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5-rc2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.5": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "25w14craftmine": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    }
+  }
+}
