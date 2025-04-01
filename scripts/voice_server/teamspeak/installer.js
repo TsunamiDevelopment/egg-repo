@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { downloadFile } = require("../../../utils/DownloadFile");
+const Logger = require("../../../utils/Logger");
 
 module.exports = async function create(version) {
 	const serverUrl = `https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2`;
