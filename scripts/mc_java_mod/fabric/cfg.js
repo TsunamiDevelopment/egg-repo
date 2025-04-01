@@ -1,4 +1,4 @@
-const { versionsMinecraft, versionJava } = require("../../../utils/McJarsApp");
+const { versionsMinecraft, parseJavaVersion } = require("../../../utils/McJarsApp");
 
 module.exports = {
 	"id": "mc_java_fabric",
@@ -6,7 +6,7 @@ module.exports = {
 	"versions": async function () { return await versionsMinecraft("fabric"); },
 	"runner": {
 		"system": "java",
-		"version": function(id) { return versionJava(id); },
+		"version": function(id) { return parseJavaVersion(id); },
 		// %%__VAR__%% are launcher-replaced flags, {{VAR}} are installer-replaced flags
 		"cmd": `/home/container/.sdkman/candidates/java/{{JDK_VERSION}}/bin/java %%__BEFOREFLAGS__%% -jar /home/container/server-{{VERSION}}.jar`
 	}

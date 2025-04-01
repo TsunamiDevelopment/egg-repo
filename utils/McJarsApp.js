@@ -96,7 +96,7 @@ async function versionsMinecraft(software) {
     }
 }
 
-function versionJava(java) {
+function parseJavaVersion(java) {
     if (java === "21") return "21.0.5-tem";
     if (java === "17") return "17.0.13-tem";
     if (java === "16") return "16.0.2-tem";
@@ -105,4 +105,4 @@ function versionJava(java) {
     return "21.0.5-tem"; // Default to 21.0.5-tem if version is not found
 }
 
-module.exports = { jarDownloadLink, jarSize, jarVersionInfo, versionJava, creationDate, allVersions, parseVersion, versionsMinecraft, versionJava };
+module.exports = { jarDownloadLink, jarSize, jarVersionInfo, versionJava, creationDate, allVersions, parseVersion, versionsMinecraft, parseJavaVersion };
