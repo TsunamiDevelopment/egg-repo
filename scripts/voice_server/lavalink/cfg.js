@@ -8,7 +8,7 @@ module.exports = {
     },
 	"runner": {
 		"system": "java",
-		"version": function(id) { return parseJavaVersion("17.0.13-tem"); },
+		"version": function(id) { return parseJavaVersion("17"); },
 		// %%__VAR__%% are launcher-replaced flags, {{VAR}} are installer-replaced flags
 		"cmd": `/home/container/.sdkman/candidates/java/{{JDK_VERSION}}/bin/java -jar /home/container/Lavalink.jar`,
 	}
