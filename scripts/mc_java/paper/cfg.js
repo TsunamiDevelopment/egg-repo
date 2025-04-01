@@ -5,9 +5,7 @@ module.exports = {
 	"friendly_name": "PaperMC",
 	"versions": async() => {
 		try {
-			const allVersion = await allVersions("paper");
-			console.log("All Versions:", allVersion);
-			const versions = allVersion.filter(v => v.type === "RELEASE");
+			const versions = await allVersions("paper");
 			const mappedVersions = await Promise.all(versions.map(async v => await parseVersion("paper", v)));
 
 			const toReturn = {};

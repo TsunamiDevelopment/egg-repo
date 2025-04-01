@@ -13,8 +13,10 @@ async function allVersions(software) {
     const versions = resp.data.versions;
     const versionList = [];
 
-    for (const versionKey of Object.keys(versions)) {
-        versionList.push(versionKey);
+    for (const [versionKey, version] of Object.entries(versions)) {
+        if (version.type === "RELEASE") {
+            versionList.push(versionKey);
+        }
     }
 
     return versionList;
