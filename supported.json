@@ -4,6 +4,7 @@
         "mc_java",
         "mc_java_mod",
         "mc_proxy",
+        "software",
         "voice_server"
     ],
     "mc_bedrock": [
