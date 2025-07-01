@@ -26,14 +26,14 @@ async function allVersions(software) {
 
 async function parseVersion(software, version) {
     const resp = (await axios.get(`https://raw.githubusercontent.com/TsunamiDevelopment/egg-repo/refs/heads/main/versions.json`)).data;
-    if (!resp) throw new Error("Invalid Version");
+    if (!resp) throw new Error("Versions data missing");
 
     const versions = resp.versions;
     let versionDoc = versions[version]
     if (!versionDoc) {
         const d = allVersionsCache[software] || await allVersions(software);
         allVersionsCache[software] = d; // Cache the response for future use
-        const versions = d.data.versions;
+        const versions = d;
         for (const [versionKey, version] of Object.entries(versions)) {
             if (versionKey === version) {
                 versionDoc = {
