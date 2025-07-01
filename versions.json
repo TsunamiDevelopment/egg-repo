@@ -234,13 +234,13 @@
       "supported": false,
       "experimental": true
     },
-    "1.6.3": {
+    "13w37b": {
       "type": "SNAPSHOT",
       "java": 8,
       "supported": false,
       "experimental": true
     },
-    "13w37b": {
+    "1.6.3": {
       "type": "SNAPSHOT",
       "java": 8,
       "supported": false,
@@ -4445,6 +4445,102 @@
       "java": 21,
       "supported": true,
       "experimental": true
+    },
+    "25w15a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w16a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w17a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w18a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w19a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w20a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w21a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6-pre1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6-pre2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6-pre3": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6-pre4": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.6": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "1.21.7-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.7-rc2": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.7": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
     }
   }
 }

@@ -6,7 +6,10 @@ async function downloadFile(fileUrl, outputLocationPath) {
     const writer = fs.createWriteStream(outputLocationPath);
 
     try {
-      const response = await axios.get(fileUrl, { responseType: "stream" });
+      const response = await axios.get(fileUrl, { 
+        responseType: "stream", 
+        maxRedirects: 5 // Follow up to 5 redirects
+      });
       response.data.pipe(writer);
 
       // Listen for the 'finish' event and resolve the promise
