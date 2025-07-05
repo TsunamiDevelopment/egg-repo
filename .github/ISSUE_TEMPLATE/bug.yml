@@ -1,36 +1,79 @@
----
 name: Bug Report
-about: Create a report to help us improve
+description: Report an issue to help us improve
 title: "[BUG] Brief description"
-labels: bug
-assignees: ''
-
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Environment (please complete the following information):**
- - OS: [e.g. Windows, Linux, macOS]
- - Version [e.g. 22]
- - Software/Game: [e.g. Minecraft, Pterodactyl]
- - Software Version: [e.g. 1.20.1, v1.11.3]
-
-**Additional context**
-Add any other context about the problem here.
-
-**Logs**
-If applicable, include relevant logs or error messages.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for reporting!
+        Please be as detailed as possible. For urgent issues, join our [Discord](link).
+        
+  - type: input
+    id: bug-title
+    attributes:
+      label: Brief Description
+      description: One-line summary of the issue
+      placeholder: e.g., "Server crashes when player joins"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction Steps
+      description: Exactly how to trigger the bug
+      value: |
+        1. 
+        2. 
+        3. 
+      render: markdown
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should normally happen
+      render: markdown
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens
+      render: markdown
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Occurrence Frequency
+      options:
+        - Always
+        - Sometimes
+        - Rarely
+        - Only once
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: Software Version
+      description: Exact version where bug occurs
+      placeholder: e.g., 1.20.1, v2.5.0
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Verification
+      options:
+        - label: I've searched existing issues and this hasn't been reported
+        - label: I've tested with the latest version
