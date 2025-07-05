@@ -1,0 +1,25 @@
+---
+name: Game/Software Request
+about: Request a new game or software to be added
+title: "[REQUEST] Game/Software Name"
+labels: request
+assignees: 'expxx'
+
+---
+
+**Game/Software Name:**
+<!-- The name of the game or software you're requesting -->
+
+**Server Software Wiki Link:**
+<!-- Link to the official wiki/documentation for the server software -->
+
+**Additional Information:**
+<!-- Any additional details about the request, such as:
+- Why this should be added
+- Special requirements
+- Popularity/community interest
+- Relevant links
+-->
+
+**Configuration Requirements (if known):**
+<!-- Any specific configuration or system requirements needed -->
