@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## Thank you for reporting!
-        Please be as detailed as possible. For urgent issues, join our [Discord](link).
+        Please be as detailed as possible. For urgent issues, join our [Discord](https://discord.gg/9DxxWYDy9D).
         
   - type: input
     id: bug-title
