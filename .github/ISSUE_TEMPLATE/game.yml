@@ -1,25 +1,60 @@
----
 name: Game/Software Request
-about: Request a new game or software to be added
+description: Request a new game or software to be added
 title: "[REQUEST] Game/Software Name"
-labels: request
+labels: ["request"]
 assignees: 'expxx'
-
----
-
-**Game/Software Name:**
-<!-- The name of the game or software you're requesting -->
-
-**Server Software Wiki Link:**
-<!-- Link to the official wiki/documentation for the server software -->
-
-**Additional Information:**
-<!-- Any additional details about the request, such as:
-- Why this should be added
-- Special requirements
-- Popularity/community interest
-- Relevant links
--->
-
-**Configuration Requirements (if known):**
-<!-- Any specific configuration or system requirements needed -->
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for suggesting a new game/software! Please fill out as much information as possible."
+      
+  - type: input
+    id: game-name
+    attributes:
+      label: Game/Software Name
+      description: The official name of what you're requesting
+      placeholder: e.g., Minecraft, Pterodactyl Panel
+    validations:
+      required: true
+      
+  - type: input
+    id: wiki-link
+    attributes:
+      label: Server Software Wiki/Documentation Link
+      description: Official link to installation/setup documentation
+      placeholder: https://wiki.example.com/server-setup
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Game Server
+        - Management Software
+        - Utility Tool
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Why this should be added, special requirements, community interest, etc.
+      placeholder: |
+        - Popularity metrics
+        - Special hardware requirements
+        - Relevant community links
+      render: markdown
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Verification
+      options:
+        - label: I've verified this software is allowed to be hosted (check TOS/EULA)
+          required: true
+        - label: This software doesn't violate any laws or GitHub's ToS
+          required: true
