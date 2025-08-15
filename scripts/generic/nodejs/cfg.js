@@ -11,6 +11,6 @@ module.exports = {
 		system: "node",
 		version: (id) => id,
 		// %%__VAR__%% are launcher-replaced flags, {{VAR}} are installer-replaced flags
-		cmd: `/home/container/.nvm/versions/node/{{SDK_VERSION}}/bin/node %%__BEFOREFLAGS__%% /home/container/`,
+		cmd: `/home/container/.nvm/versions/node/v{{SDK_VERSION}}/bin/node %%__BEFOREFLAGS__%% /home/container/`,
 	},
 };
