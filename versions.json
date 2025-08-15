@@ -54,13 +54,13 @@
       "supported": false,
       "experimental": false
     },
-    "1.4.6": {
+    "1.4.5": {
       "type": "RELEASE",
       "java": 8,
       "supported": false,
       "experimental": false
     },
-    "1.4.5": {
+    "1.4.6": {
       "type": "RELEASE",
       "java": 8,
       "supported": false,
@@ -4541,6 +4541,36 @@
       "java": 21,
       "supported": true,
       "experimental": false
+    },
+    "1.21.8-rc1": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "1.21.8": {
+      "type": "RELEASE",
+      "java": 21,
+      "supported": true,
+      "experimental": false
+    },
+    "25w31a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w32a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
+    },
+    "25w33a": {
+      "type": "SNAPSHOT",
+      "java": 21,
+      "supported": true,
+      "experimental": true
     }
   }
 }
