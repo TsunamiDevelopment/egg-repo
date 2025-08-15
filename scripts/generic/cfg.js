@@ -1,5 +1,5 @@
 module.exports = {
 	id: "generic",
 	friendly_name: "Generic",
-	subcategories: ["nodejs"],
+	subcategories: ["nodejs", "python"],
 };
