@@ -11,6 +11,7 @@ module.exports = async function create(version) {
 			type: "node",
 			version: sdkVersion,
 		},
+		program: {},
 		launch: cmd,
 	};
 };
