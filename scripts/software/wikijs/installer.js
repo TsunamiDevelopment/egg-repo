@@ -41,7 +41,7 @@ module.exports = async function create(version) {
 		'Extracting Wiki.js v' + apiVersionData + ' to ' + assetPathUnzipped
 	);
 	await extract(assetPath, assetPathUnzipped);
-	fs.renameSync('config.sample.yml', 'config.yml');
+	fs.renameSync('/home/container/config.sample.yml', '/home/containerconfig.yml');
 
 	Logger.info('Cleaning up...');
 	await fs.promises.unlink(assetPath).then(() => {
