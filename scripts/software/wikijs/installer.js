@@ -47,6 +47,8 @@ module.exports = async function create(version) {
 		if (!fs.existsSync('/home/container/wikijs/config.yml')) {
 			fs.renameSync('/home/container/wikijs/config.sample.yml', '/home/container/wikijs/config.yml');
 		}
+		Logger.info('Installing Node Modules');
+		execSync('npm i', { stdio: 'inherit', cwd: '/home/container/wikijs' });
 	
 		Logger.info('Wiki.js v' + apiVersionData + ' installed successfully');
 		Logger.info('Rebuilding SQLite');
