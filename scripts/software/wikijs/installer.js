@@ -45,6 +45,10 @@ module.exports = async function create(version) {
 			'Extracting Wiki.js v' + apiVersionData + ' to ' + assetPathUnzipped
 		);
 		await extract(assetPath, assetPathUnzipped);
+
+		if (!fs.existsSync('/home/container/wikijs/config.yml')) {
+			fs.renameSync('/home/container/wikijs/config.sample.yml', '/home/container/wikijs/config.yml');
+		}
 	
 		Logger.info('Wiki.js v' + apiVersionData + ' installed successfully');
 		Logger.info('Rebuilding SQLite');
@@ -56,9 +60,6 @@ module.exports = async function create(version) {
 			throw error;
 		}
 	}
-	if (!fs.existsSync('/home/container/config.yml')) {
-		fs.renameSync('/home/container/wikijs/config.sample.yml', '/home/container/config.yml');
-	}
 
 	return {
 		sdk: {
@@ -67,5 +68,6 @@ module.exports = async function create(version) {
 		},
 		program: {},
 		launch: cmd,
+		cwd: '/home/container/wikijs'
 	};
 };
