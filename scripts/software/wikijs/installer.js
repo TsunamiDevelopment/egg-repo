@@ -27,7 +27,7 @@ module.exports = async function create(version) {
 	const assetDate = new Date(asset.updated_at);
 
 	const assetPath = `/home/container/${assetName}`;
-	const assetPathUnzipped = `/home/container`;
+	const assetPathUnzipped = `/home/container/wikijs`;
 	// released x days ago
 	Logger.info(
 		'Downloading Wiki.js v' +
