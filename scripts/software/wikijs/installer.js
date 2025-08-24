@@ -46,15 +46,6 @@ module.exports = async function create(version) {
 	await extract(assetPath, assetPathUnzipped);
 	fs.renameSync('/home/container/wikijs/config.sample.yml', '/home/container/wikijs/config.yml');
 
-	Logger.info('Cleaning up...');
-	await fs.promises.unlink(assetPath).then(() => {
-		const fileSizeInBytes = fs.statSync(assetPath).size;
-		const fileSizeInMB = (fileSizeInBytes / (1024 * 1024)).toFixed(2);
-		Logger.info(
-			`Server TAR downloaded successfully (Size: ${fileSizeInMB} MB)`
-		);
-	});
-
 	Logger.info('Wiki.js v' + apiVersionData + ' installed successfully');
 	Logger.info('Rebuilding SQLite');
 	try {
