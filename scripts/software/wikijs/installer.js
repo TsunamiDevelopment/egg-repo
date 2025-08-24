@@ -5,6 +5,9 @@ const fs = require('fs');
 const { extract } = require('tar-extract');
 
 module.exports = async function create(version) {
+	if (!fs.existsSync('/home/container/wikijs')) {
+		fs.mkdirSync('/home/container/wikijs');
+	}
 	const cmd = require('./cfg').runner.cmd;
 	const { execSync } = require('child_process');
 
